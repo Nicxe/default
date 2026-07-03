@@ -12,6 +12,10 @@ updates:
       prefix: "chore(deps)"
       prefix-development: "chore(deps-dev)"
     open-pull-requests-limit: 5
+    ignore:
+      - dependency-name: "*"
+        update-types:
+          - "version-update:semver-major"
     groups:
       github-actions:
         patterns:
